@@ -51,7 +51,7 @@ public class TestLargest {
             //ocupar una forma de guardar elementos de forma dinámica
             //en lugar de un arreglo [] vamos a usar un arreglo de java
             //ArrayList
-            ArrayList arreglo = new ArrayList ();
+            ArrayList<Integer> arreglo = new ArrayList<Integer> ();
             while (st.hasMoreTokens()){
                 String numeroEnArregloString = st.nextToken();
                 int numeroEnArreglo = Integer.parseInt(numeroEnArregloString);
@@ -66,6 +66,7 @@ public class TestLargest {
             
             assertEquals (valorEsperado,Largest.largest(arregloParaPrueba) );
         }
+        lector.close();
     }
 
 
