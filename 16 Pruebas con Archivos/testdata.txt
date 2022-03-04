@@ -1,0 +1,10 @@
+# Son comentarios que van a ser ignorados
+
+9 9 8 7
+9 8 5 9
+9 5 9 8
+-5 -5 -8 -9
+
+9 1 2 9
+#comentarios
+10 10 2 5 1
